@@ -1,0 +1,86 @@
+description: Flux products for transport modeling
+plugins:
+  source:
+  - module: intake_xarray
+sources:
+  SFAPO_OCN.carboscope.apo99X_v2021:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFAPO_OCN.CarboScope.apo99X_v2021.nc
+      xarray_kwargs:
+        decode_times: false
+    description: APO fluxes from CarboScope inversion apo99X_v2021
+    driver: netcdf
+  SFCO2_FF.GCP-GridFED.v2021.3:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_FF.GCP-GridFED.v2021.3.19840101-20201231.nc
+      xarray_kwargs:
+        decode_times: false
+    description: Gridded fossil CO2 emissions consistent with national inventories
+      1959-2020
+    driver: netcdf
+  SFCO2_FF.OCO2-MIP.v2020.1:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_FF.OCO2-MIP-FF.v2020.1.20000101-20201231.nc
+      xarray_kwargs:
+        decode_times: false
+    description: "daily integral of Fossil Fuel CO\u2082 Emissions for the OCO2 Model\
+      \ Intercomparison Project (MIP)"
+    driver: netcdf
+  SFCO2_OCN.MPI-SOM-FFN:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_OCN.MPI-SOM-FFN.v2021.198401-202012.nc
+      xarray_kwargs:
+        decode_times: false
+    description: "An observation-based global monthly gridded sea surface pCO2 product\
+      \ from 1982 onward and its monthly climatology. Citation: Landsch\xFCtzer, P.,\
+      \ Gruber, N., Bakker, D. C. E.: Decadal variations and trends of the global\
+      \ ocean carbon sink, Global Biogeochemical Cycles, 30, doi:10.1002/2015GB005359,\
+      \ 2016"
+    driver: netcdf
+  SFCO2_OCN.cesm_fosi_smyle:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
+      xarray_kwargs:
+        decode_times: false
+    description: CESM simulated flux from g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005
+      at daily resolution
+    driver: netcdf
+  SFN2_OCN.cesm_fosi_smyle:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFN2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
+      xarray_kwargs:
+        decode_times: false
+    description: CESM simulated flux from g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005
+      at monthly resolution
+    driver: netcdf
+  SFN2_OCN.era5_shf:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFN2_OCN.era5-shf.shft_0d.scale_0.77.1984-2020.nc
+      xarray_kwargs:
+        decode_times: false
+    description: N2 flux computed from ERA5 heat flux
+    driver: netcdf
+  SFO2_FF.GCP-GridFED.v2021.3:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFO2_FF.GCP-GridFED.v2021.3.19840101-20201231.nc
+      xarray_kwargs:
+        decode_times: false
+    description: Gridded fossil O2 combustion consistent with national inventories
+      1959-2020
+    driver: netcdf
+  SFO2_OCN.cesm_fosi_smyle:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFO2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
+      xarray_kwargs:
+        decode_times: false
+    description: CESM simulated flux from g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005
+      at daily resolution
+    driver: netcdf
+  SFO2_OCN.gk2001_R2016:
+    args:
+      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFO2_OCN.GK2001.monclim.shft_0d.scale_0.82.R2016_ann.nc
+      xarray_kwargs:
+        decode_times: false
+    description: GK2001 seasional fluxes with R2016 annual mean; time axis shifted
+      by 0.0d, fluxes scaled by 0.82
+    driver: netcdf
