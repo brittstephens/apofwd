@@ -26,7 +26,7 @@ sources:
       storage_options:
         simplecache:
           same_names: true
-          cache_storage: "/glade/scratch/{{ env(USER) }}/WOA2018"
+          cache_storage: "/glade/derecho/scratch/{{ env(USER) }}/WOA2018"
 
   temperature:
     driver: netcdf
@@ -48,5 +48,5 @@ sources:
       storage_options:
         simplecache:
           same_names: true
-          cache_storage: "/glade/scratch/{{ env(USER) }}/WOA2018"
+          cache_storage: "/glade/derecho/scratch/{{ env(USER) }}/WOA2018"
 

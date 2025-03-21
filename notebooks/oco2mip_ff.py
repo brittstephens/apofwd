@@ -77,7 +77,7 @@ def retrieve_datasets(date, version='v2020.1'):
     
     _, nday = monthrange(year, month)
     
-    cache_storage = f"/glade/scratch/{os.environ['USER']}/OCO2-MIP-SFCO2_FF-{version}"
+    cache_storage = f"/glade/derecho/scratch/{os.environ['USER']}/OCO2-MIP-SFCO2_FF-{version}"
     os.makedirs(cache_storage, exist_ok=True)
 
 

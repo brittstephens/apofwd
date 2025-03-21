@@ -5,14 +5,14 @@ plugins:
 sources:
   SFAPO_OCN.carboscope.apo99X_v2021:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFAPO_OCN.CarboScope.apo99X_v2021.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFAPO_OCN.CarboScope.apo99X_v2021.nc
       xarray_kwargs:
         decode_times: false
     description: APO fluxes from CarboScope inversion apo99X_v2021
     driver: netcdf
   SFCO2_FF.GCP-GridFED.v2021.3:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_FF.GCP-GridFED.v2021.3.19840101-20201231.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFCO2_FF.GCP-GridFED.v2021.3.19840101-20201231.nc
       xarray_kwargs:
         decode_times: false
     description: Gridded fossil CO2 emissions consistent with national inventories
@@ -20,7 +20,7 @@ sources:
     driver: netcdf
   SFCO2_FF.OCO2-MIP.v2020.1:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_FF.OCO2-MIP-FF.v2020.1.20000101-20201231.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFCO2_FF.OCO2-MIP-FF.v2020.1.20000101-20201231.nc
       xarray_kwargs:
         decode_times: false
     description: "daily integral of Fossil Fuel CO\u2082 Emissions for the OCO2 Model\
@@ -28,7 +28,7 @@ sources:
     driver: netcdf
   SFCO2_OCN.MPI-SOM-FFN:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_OCN.MPI-SOM-FFN.v2021.198401-202012.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFCO2_OCN.MPI-SOM-FFN.v2021.198401-202012.nc
       xarray_kwargs:
         decode_times: false
     description: "An observation-based global monthly gridded sea surface pCO2 product\
@@ -39,7 +39,7 @@ sources:
     driver: netcdf
   SFCO2_OCN.cesm_fosi_smyle:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFCO2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFCO2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
       xarray_kwargs:
         decode_times: false
     description: CESM simulated flux from g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005
@@ -47,7 +47,7 @@ sources:
     driver: netcdf
   SFN2_OCN.cesm_fosi_smyle:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFN2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFN2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
       xarray_kwargs:
         decode_times: false
     description: CESM simulated flux from g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005
@@ -62,7 +62,7 @@ sources:
     driver: netcdf
   SFO2_FF.GCP-GridFED.v2021.3:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFO2_FF.GCP-GridFED.v2021.3.19840101-20201231.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFO2_FF.GCP-GridFED.v2021.3.19840101-20201231.nc
       xarray_kwargs:
         decode_times: false
     description: Gridded fossil O2 combustion consistent with national inventories
@@ -70,7 +70,7 @@ sources:
     driver: netcdf
   SFO2_OCN.cesm_fosi_smyle:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFO2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFO2_OCN.g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005.19840101-20201231.nc
       xarray_kwargs:
         decode_times: false
     description: CESM simulated flux from g.e22.GOMIPECOIAF_JRA-1p4-2018.TL319_g17.SMYLE.005
@@ -78,7 +78,7 @@ sources:
     driver: netcdf
   SFO2_OCN.gk2001_R2016:
     args:
-      urlpath: /glade/work/mclong/sno-analysis/flux-products/SFO2_OCN.GK2001.monclim.shft_0d.scale_0.82.R2016_ann.nc
+      urlpath: /glade/work/stephens/sno-analysis/flux-products-staging/SFO2_OCN.GK2001.monclim.shft_0d.scale_0.82.R2016_ann.nc
       xarray_kwargs:
         decode_times: false
     description: GK2001 seasional fluxes with R2016 annual mean; time axis shifted

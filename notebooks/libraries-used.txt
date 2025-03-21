@@ -1,0 +1,58 @@
+grep conda-forge *.*
+grep black *.*
+grep bokeh *.*
+grep bottleneck *.*
+grep cartopy *.*
+grep cf_units *.*
+grep cfgrib *.*
+grep cmocean *.*
+grep eofs *.*
+grep esmpy *.*
+grep holoviews *.*
+grep metpy *.*
+grep nc-time-axis *.*
+grep ncar-jobqueue *.*
+grep netcdf4 *.*
+grep numba *.*
+grep pint *.*
+grep pop-tools *.*
+grep pytest *.*
+grep seaborn *.*
+grep seawater *.*
+grep statsmodels *.*
+grep tqdm *.*
+grep watermark *.*
+grep xesmf *.*
+grep xgcm *.*
+grep xhistogram *.* 
+grep xrft *.*
+grep zarr *.*
+
+Probably
+grep conda-lock *.*
+grep dask-jobqueue *.*
+grep dask-mpi *.*
+grep intake-xarray *.*
+grep jupyter-server-proxy *.*
+grep jupyter_contrib_nbextensions *.*
+grep jupyterlab *.*
+grep jupyter-book *.*
+grep jupyter_client *.*
+grep pip *.*
+grep scipy *.*
+
+
+Yes (explicitly called):
+cftime
+dask
+distributed
+intake
+intake-esm
+ipykernel
+matplotlib
+numpy
+pandas
+python
+toolz
+xarray
+cdsapi

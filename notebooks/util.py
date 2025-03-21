@@ -69,7 +69,7 @@ git_repo = (subprocess
             .strip()
             .decode("utf-8")
             .replace('git@github.com:', 'https://github.com/')
-            .replace('.git', '')            
+            .replace('.git', '')
            )
 
 
